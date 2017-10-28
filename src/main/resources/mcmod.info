@@ -1,0 +1,16 @@
+[
+{
+  "modid": "multipackAdds",
+  "name": "MultiPack Adds",
+  "description": "This mod adds stuff that we feels no other mod can deliver",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["RobiEmm"],
+  "credits": "Created by Spooky_ma[RobiEmm]",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

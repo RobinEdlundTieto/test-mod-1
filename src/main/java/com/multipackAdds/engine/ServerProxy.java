@@ -1,0 +1,23 @@
+package com.multipackAdds.engine;
+
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+public class ServerProxy extends ClientProxy{
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent e) {
+         super.preInit(e);
+    }
+
+    @EventHandler
+    public void init(FMLInitializationEvent e) {
+    	 super.init(e);
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent e) {
+    	super.postInit(e);
+    }
+}
